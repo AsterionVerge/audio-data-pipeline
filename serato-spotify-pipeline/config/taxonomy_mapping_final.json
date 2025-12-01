@@ -1,0 +1,348 @@
+{
+  "arabian.csv": {
+    "vibe": "arabian",
+    "culture": "arabian"
+  },
+  "arabian_daze.csv": {
+    "vibe": "arabian",
+    "culture": "arabian"
+  },
+  "oasis.csv": {
+    "vibe": "arabian",
+    "culture": "arabian"
+  },
+  "forest.csv": {
+    "vibe": "forest"
+  },
+  "set_116_-_rainforest.csv": {
+    "vibe": "jungle"
+  },
+  "set_26_-_indigenous.csv": {
+    "vibe": "forest"
+  },
+  "faerie.csv": {
+    "vibe": "faerie"
+  },
+  "dark.csv": {
+    "vibe": "dark"
+  },
+  "set_11_-_whorl_of_darkness.csv": {
+    "vibe": "dark"
+  },
+  "set_34_-_dark_raving_mad.csv": {
+    "vibe": "dark"
+  },
+  "set_37_-_pitch_black.csv": {
+    "vibe": "dark"
+  },
+  "jungle.csv": {
+    "vibe": "jungle"
+  },
+  "set_21_-_the_jungle_shook.csv": {
+    "vibe": "jungle"
+  },
+  "the_jungle_shook.csv": {
+    "vibe": "jungle"
+  },
+  "set_178_-_tribe.csv": {
+    "vibe": "jungle"
+  },
+  "space.csv": {
+    "vibe": "space"
+  },
+  "space_cadets.csv": {
+    "vibe": "space"
+  },
+  "set_40_-_deep_space.csv": {
+    "vibe": "space"
+  },
+  "robot.csv": {
+    "vibe": "robot",
+    "sound": "robotic"
+  },
+  "set_78_-_ex_machina.csv": {
+    "vibe": "robotic",
+    "sound": "robotic"
+  },
+  "air.csv": {
+    "vibe": "air"
+  },
+  "set_84_-_air.csv": {
+    "vibe": "air"
+  },
+  "fire.csv": {
+    "vibe": "fire"
+  },
+  "set_85_-_fire.csv": {
+    "vibe": "fire"
+  },
+  "burn.csv": {
+    "vibe": "fire"
+  },
+  "water.csv": {
+    "vibe": "water"
+  },
+  "set_82_-_water.csv": {
+    "vibe": "water"
+  },
+  "earth.csv": {
+    "vibe": "earth"
+  },
+  "set_83_-_earth.csv": {
+    "vibe": "earth"
+  },
+  "earth_element.csv": {
+    "vibe": "earth"
+  },
+  "ice.csv": {
+    "vibe": "ice"
+  },
+  "witch.csv": {
+    "vibe": "witch"
+  },
+  "transcend.csv": {
+    "vibe": "transcendent"
+  },
+  "otherworld.csv": {
+    "vibe": "otherworldly"
+  },
+  "thunderstorm.csv": {
+    "vibe": "stormy"
+  },
+  "set_72_-_tempest.csv": {
+    "vibe": "stormy"
+  },
+  "set_161_-_rumble.csv": {
+    "vibe": "stormy"
+  },
+  "sunshine.csv": {
+    "vibe": "bright"
+  },
+  "fun.csv": {
+    "vibe": "fun"
+  },
+  "catharsis.csv": {
+    "vibe": "cathartic"
+  },
+  "global_scale.csv": {
+    "vibe": "epic"
+  },
+  "global_scale (1).csv": {
+    "vibe": "epic"
+  },
+  "set_200_-_epic_rave.csv": {
+    "vibe": "epic",
+    "sound": "rave"
+  },
+  "rave.csv": {
+    "sound": "rave"
+  },
+  "madness.csv": {
+    "vibe": "chaotic"
+  },
+  "set_52_-_whimsy.csv": {
+    "vibe": "whimsy"
+  },
+  "set_81_-_dreamscape.csv": {
+    "vibe": "dreamy"
+  },
+  "set_69_-_clerb.csv": {
+    "vibe": "party"
+  },
+  "set_12_-_whorl_of_light.csv": {
+    "vibe": "light"
+  },
+  "set_38_-_serenity.csv": {
+    "vibe": "serene"
+  },
+  "gay_set_tracks.csv": {
+    "vibe": "gay"
+  },
+  "that's_so_gay.csv": {
+    "vibe": "gay",
+    "emotional_layers": "euphoric"
+  },
+  "set_173_-_trip.csv": {
+    "vibe": "psychedelic"
+  },
+  "haunt.csv": {
+    "sound": "haunting",
+    "vibe": "haunting"
+  },
+  "set_64_-_haunt.csv": {
+    "sound": "haunting",
+    "vibe": "haunting"
+  },
+  "haunting.csv": {
+    "sound": "haunting",
+    "vibe": "haunting"
+  },
+  "set_174_-_ominous.csv": {
+    "sound": "haunting"
+  },
+  "bounce.csv": {
+    "sound": "bouncy"
+  },
+  "set_49_-_bounce.csv": {
+    "sound": "bouncy"
+  },
+  "set_71_-_bouncier.csv": {
+    "sound": "bouncy"
+  },
+  "bangers.csv": {
+    "sound": "banger"
+  },
+  "beautiful_.csv": {
+    "sound": "beautiful"
+  },
+  "arcade.csv": {
+    "sound": "arcade"
+  },
+  "set_80_-_classic.csv": {
+    "sound": "classic"
+  },
+  "set_14_-_ph-14.csv": {
+    "sound": "acid-tinged"
+  },
+  "knee-deep_in_acid.csv": {
+    "sound": "acid-tinged"
+  },
+  "set_150_-_acid_spit.csv": {
+    "sound": "acidic"
+  },
+  "set_58_-_loop-de-loop.csv": {
+    "sound": "hypnotic"
+  },
+  "teardrop.csv": {
+    "emotional_layers": "sad"
+  },
+  "set_28_-_teardrop.csv": {
+    "emotional_layers": "sad"
+  },
+  "set_175_-_cry.csv": {
+    "emotional_layers": "sad"
+  },
+  "happy_dance.csv": {
+    "emotional_layers": "euphoric"
+  },
+  "set_16_-_happy_dance.csv": {
+    "emotional_layers": "euphoric"
+  },
+  "melt.csv": {
+    "emotional_layers": "sentimental"
+  },
+  "set_41_-_melt.csv": {
+    "emotional_layers": "sentimental"
+  },
+  "melt_my_heart.csv": {
+    "emotional_layers": "sentimental"
+  },
+  "set_136_-_meltagain.csv": {
+    "emotional_layers": "sentimental"
+  },
+  "for_the_love_of_happiness!.csv": {
+    "emotional_layers": "euphoric"
+  },
+  "dancin'_my_butt_off.csv": {
+    "emotional_layers": "euphoric"
+  },
+  "set_55_-_instant_smile.csv": {
+    "emotional_layers": "euphoric"
+  },
+  "set_50_-_mirth.csv": {
+    "emotional_layers": "euphoric"
+  },
+  "set_172_-_cloud9.csv": {
+    "emotional_layers": "euphoric"
+  },
+  "didgeridoo.csv": {
+    "prominent_instruments": "didgeridoo"
+  },
+  "set_66_-_didgeridoo.csv": {
+    "prominent_instruments": "didgeridoo"
+  },
+  "guitar.csv": {
+    "prominent_instruments": "guitar"
+  },
+  "set_63_-_guitar.csv": {
+    "prominent_instruments": "guitar"
+  },
+  "piano.csv": {
+    "prominent_instruments": "piano"
+  },
+  "set_67_-_piano.csv": {
+    "prominent_instruments": "piano"
+  },
+  "moar_cowbell.csv": {
+    "prominent_instruments": "cowbell"
+  },
+  "set_144_-_moar_cowbell.csv": {
+    "prominent_instruments": "cowbell"
+  },
+  "set_24_-_brass_up_the_ass.csv": {
+    "prominent_instruments": "brass"
+  },
+  "set_149_-_strings_attached.csv": {
+    "prominent_instruments": "strings"
+  },
+  "set_19_-_strung_up.csv": {
+    "prominent_instruments": "strings"
+  },
+  "all_the_vocals.csv": {
+    "prominent_instruments": "vocalizations"
+  },
+  "set_8_-_a_chime_in_time.csv": {
+    "prominent_instruments": "chime"
+  },
+  "la_touche_française.csv": {
+    "culture": "french",
+    "language": "french"
+  },
+  "set_76_-_la_touche_française.csv": {
+    "culture": "french",
+    "language": "french"
+  },
+  "intros.csv": {
+    "placement": "intro"
+  },
+  "intros (1).csv": {
+    "placement": "intro"
+  },
+  "outros_&_dips.csv": {
+    "placement": "outro"
+  },
+  "outros_dips.csv": {
+    "placement": "outro"
+  },
+  "summons_viii.csv": {
+    "placement": "summons"
+  },
+  "summons_xi.csv": {
+    "placement": "summons"
+  },
+  "summons_xii.csv": {
+    "placement": "summons"
+  },
+  "summons_xiii_-_inundate.csv": {
+    "placement": "summons",
+    "vibe": "overwhelming"
+  },
+  "summons_xiv_-_interstellar_love_story.csv": {
+    "placement": "summons",
+    "vibe": "cosmic",
+    "emotional_layers": "romantic"
+  },
+  "summons_xv_-_halloween_2023.csv": {
+    "placement": "summons",
+    "vibe": "spooky"
+  },
+  "summons_xvi_-_what_wilds_whistle.csv": {
+    "placement": "summons",
+    "vibe": "wild"
+  },
+  "summons_xvii_-_the_homosexual_urge.csv": {
+    "placement": "summons",
+    "emotional_layers": "queer euphoria",
+    "vibe": "gay"
+  }
+}

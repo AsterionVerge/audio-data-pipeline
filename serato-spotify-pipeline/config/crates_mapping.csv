@@ -1,0 +1,108 @@
+crate_filename,mapped_header,mapped_selection,notes
+BPM_116 or less.crate,BPM (approximated),116 or less,DON'T OVERWRITE
+BPM_117-120.crate,BPM (approximated),117-120,DON'T OVERWRITE
+BPM_121-123.crate,BPM (approximated),121-123,DON'T OVERWRITE
+BPM_124-125.crate,BPM (approximated),124-125,DON'T OVERWRITE
+BPM_126-129.crate,BPM (approximated),126-129,DON'T OVERWRITE
+BPM_130-134.crate,BPM (approximated),130-134,DON'T OVERWRITE
+BPM_135-139.crate,BPM (approximated),135-139,DON'T OVERWRITE
+BPM_140+.crate,BPM (approximated),140+,DON'T OVERWRITE
+Genres_Breaks.crate,Genre,Breaks,OVERWRITE
+Genres_Deep House.crate,Genre,Deep House,OVERWRITE
+Genres_Disco.crate,Genre,Disco,OVERWRITE
+Genres_Electro & Indie Dance.crate,Genre,Electro & Indie Dance,OVERWRITE
+Genres_House.crate,Genre,House,OVERWRITE
+Genres_Melodic House.crate,Genre,Melodic House,OVERWRITE
+Genres_Melodic Techno.crate,Genre,Melodic Techno,OVERWRITE
+Genres_Organic House.crate,Genre,Organic House,OVERWRITE
+Genres_Other & Special.crate,Notes,Other & Special,OVERWRITE
+Genres_Other & Special_Classics.crate,Notes,Classic,OVERWRITE
+Genres_Other & Special_Instrumental.crate,Notes,Other & Special (Instrumental),OVERWRITE
+Genres_ProgHouse.crate,Genre,Progressive House,OVERWRITE
+Genres_ProgHouse_Core.crate,Genre | Subgenre,Progressive House | Core,OVERWRITE
+Genres_ProgHouse_Core_Argentinian.crate,Genre | Subgenre,Progressive House | Argentinian,OVERWRITE
+Genres_ProgHouse_Core_Elsewhere.crate,Genre | Subgenre,Progressive House | Elsewhere,OVERWRITE
+Genres_ProgHouse_Deep Prog.crate,Genre | Subgenre,Progressive House | Deep,OVERWRITE
+Genres_ProgHouse_Disco Prog.crate,Genre | Subgenre,Progressive House | Disco,OVERWRITE
+Genres_Tech-House.crate,Genre,Tech-House,OVERWRITE
+Genres_Techno.crate,Genre,Techno,OVERWRITE
+Genres_Techno_Common Techno.crate,Genre | Subgenre,Techno | Common,OVERWRITE
+Genres_Techno_Hard Techno.crate,Genre | Subgenre,Techno | Hard Techno,OVERWRITE
+Genres_Techno_Raw Techno.crate,Genre | Subgenre,Techno | Raw,OVERWRITE
+Genres_Trance.crate,Genre,Trance,OVERWRITE
+"Genres_Trance_Deep, Raw, Hypnotic.crate",Genre | Subgenre,"Trance | Deep, Hypnotic, Raw",OVERWRITE
+Genres_Trance_Mainstream Trance.crate,Genre | Subgenre,Trance | Mainstream,OVERWRITE
+Genres_Trance_Old School.crate,Genre | Subgenre,Trance | Old School,OVERWRITE
+Genres_Trance_Psy-Trance.crate,Genre | Subgenre,Trance | Psy-Trance,OVERWRITE
+Placement_Denouments.crate,Placement,Denouments,OVERWRITE
+Placement_Energy Builds.crate,Placement,Energy Builds,OVERWRITE
+Placement_Important Interlude.crate,Placement,Important Interlude,OVERWRITE
+Placement_Intros.crate,Placement,Intros,OVERWRITE
+Placement_Intros_Best (incomplete).crate,Placement,Best Intros,OVERWRITE
+Placement_Outros.crate,Placement,Outros,OVERWRITE
+Placement_Outros_Best (incomplete).crate,Placement,Best Outros,OVERWRITE
+Placement_Peak.crate,Placement,Peak,OVERWRITE
+Placement_Vibe Shifts.crate,Placement,Vibe Shifts,OVERWRITE
+Sound_Acid.crate,Sound,Acid-tinged,OVERWRITE
+Sound_Dark.crate,Sound,Dark,OVERWRITE
+Sound_Drone.crate,Sound,Drone,OVERWRITE
+Sound_Foreign Language.crate,Sound,Foreign Language,OVERWRITE
+Sound_Gray.crate,Sound,Gray Area,OVERWRITE
+Sound_Instruments_Animal Sounds.crate,Prominent Instruments,Animal Sounds,OVERWRITE
+Sound_Instruments_Bells & Chimes.crate,Prominent Instruments,Bells & Chimes,OVERWRITE
+Sound_Instruments_Brass.crate,Prominent Instruments,Brass,OVERWRITE
+Sound_Instruments_Guitar.crate,Prominent Instruments,Guitar,OVERWRITE
+Sound_Instruments_Other.crate,Prominent Instruments,Other,OVERWRITE
+Sound_Instruments_Percussion.crate,Prominent Instruments,Percussion,OVERWRITE
+Sound_Instruments_Piano.crate,Prominent Instruments,Piano,OVERWRITE
+Sound_Instruments_Spoken Word.crate,Prominent Instruments,Spoken Word,OVERWRITE
+Sound_Instruments_Strings.crate,Prominent Instruments,Strings,OVERWRITE
+Sound_Instruments_Vocalizations.crate,Prominent Instruments,Vocalizations,OVERWRITE
+Sound_Instruments_Vocals.crate,Prominent Instruments,Vocals,OVERWRITE
+Sound_Instruments_Winds & Whistles.crate,Prominent Instruments,Winds & Whistles,OVERWRITE
+Sound_Light.crate,Sound,Light,OVERWRITE
+Summons Sets_Summons 2.crate,Sets,Summons II,OVERWRITE
+Summons Sets_Summons 3.crate,Sets,Summons III,OVERWRITE
+Summons Sets_Summons 4.crate,Sets,Summons IV,OVERWRITE
+Summons Sets_Summons 5.crate,Sets,Summons V,OVERWRITE
+Summons Sets_Summons 6.crate,Sets,Summons VI,OVERWRITE
+Summons Sets_Summons 7.crate,Sets,Summons VII,OVERWRITE
+Summons Sets_Summons 9.crate,Sets,Summons IX,OVERWRITE
+Summons Sets_Summons X.crate,Sets,Summons X,OVERWRITE
+Summons Sets_Summons XI.crate,Sets,Summons XI,OVERWRITE
+Summons Sets_Summons XII.crate,Sets,Summons XII,OVERWRITE
+Summons Sets_Summons XIII .crate,Sets,Summons XIII - Inundate,OVERWRITE
+Summons Sets_Summons XIV.crate,Sets,Summons XIV - Interstellar Love Story,OVERWRITE
+Summons Sets_Summons XIX - Part 1.crate,Sets,Summons XIX - Of Stars & Sand - Part 1,OVERWRITE
+Summons Sets_Summons XV - Halloween 2023.crate,Sets,Summons XV - Halloween 2023,OVERWRITE
+Summons Sets_Summons XVI.crate,Sets,Summons XVI - What Whistles Wild Wild,OVERWRITE
+Summons Sets_Summons XVII.crate,Sets,Summons XVII - The Homosexual Urge,OVERWRITE
+Summons Sets_Summons XVIII - Aerodynamix.crate,Sets,Summons XVIII - Aerodynamix,OVERWRITE
+Summons Sets_Summons XVIII - Aerodynamix_Aerodynamix rework.crate,Sets,Summons XVIII - Aerodynamix rework,OVERWRITE
+Vibe_African.crate,Culture,African,OVERWRITE
+Vibe_Arabian & Indian.crate,Culture,Arab & Indian,OVERWRITE
+Vibe_Arcade.crate,Vibe,Arcade,OVERWRITE
+Vibe_Asian.crate,Culture,Asian,OVERWRITE
+Vibe_Circus.crate,Vibe,Circus,OVERWRITE
+Vibe_Deeply hypnotic rave.crate,Sound,Rave; Hypnotic; Bangers,OVERWRITE
+Vibe_Emotional_Angry.crate,Emotionality,Rage,OVERWRITE
+Vibe_Emotional_Happy.crate,Emotionality,Bliss,OVERWRITE
+Vibe_Emotional_Haunting & Broody.crate,Emotionality,"Moody, Broody, or Haunting",OVERWRITE
+Vibe_Emotional_Heartfelt.crate,Emotionality,Sentimental,OVERWRITE
+Vibe_Emotional_Sad.crate,Emotionality,Melancholia,OVERWRITE
+Vibe_Emotional_Sexy.crate,Emotionality,Seduction,OVERWRITE
+Vibe_Enchanted.crate,Vibe,Whimsy,OVERWRITE
+Vibe_Epic.crate,Vibe,Epic,OVERWRITE
+Vibe_Ethereal.crate,Vibe,Ethereal,OVERWRITE
+Vibe_Forest & Nature.crate,Vibe,Forests,OVERWRITE
+Vibe_Gay.crate,Vibe,Gay,OVERWRITE
+Vibe_Jungle & Tribal.crate,Vibe,Jungle & Tribal,OVERWRITE
+Vibe_Machine.crate,Sound,Robotic,OVERWRITE
+Vibe_Mindbending.crate,Vibe | Sound,Mindbenders | Hypnotic,OVERWRITE
+Vibe_Oceans & Water.crate,Vibe,Water,OVERWRITE
+Vibe_Party.crate,Vibe,Party,OVERWRITE
+Vibe_Religious.crate,Vibe,Religious,OVERWRITE
+Vibe_Sky.crate,Vibe,Air,OVERWRITE
+Vibe_Space.crate,Vibe,Cosmic,OVERWRITE
+Vibe_Spanish & LatAm.crate,Culture,Spain & LatAm,OVERWRITE
+Vibe_Stormy.crate,Vibe,Stormy,OVERWRITE
