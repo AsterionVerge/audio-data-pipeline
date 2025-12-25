@@ -1,30 +1,66 @@
-# Audio Metadata Extraction & ETL Pipeline 🎵 -> 📊
+# Audio Metadata Extraction & ETL Pipeline
 
-### Reverse-Engineering Serato Crates & Reconciling Metadata Debt
+### Reverse-Engineering Serato Crates and Reconciling Creative Metadata
 
-**Status:** Shipped (v1.0) | **Accuracy:** 93.8% (Code) -> 100% (AI-Assisted)
+**Status:** Shipped (v1.0)  
+**Dataset Integrity:** 93.8% programmatic → 100% with HITL resolution
 
-## ⚡ The Engineering Challenge
-Spotify restricted API access for non-commercial developers, locking my library of **2,700+ tracks** and **200+ curated playlists** inside a "walled garden." I needed to migrate 5 years of granular taxonomy (Mood, Energy, "Dark vs. Light," Nested Sub-genres) out of proprietary formats and into a queryable dataset.
+---
 
-## 🛠 The Solution: A Hybrid ETL Pipeline
-I architected a custom pipeline that bridges local binary files, third-party analysis tools, and LLM-based data cleaning.
+## Problem
 
-### 1. The "Hard" Engineering (Python & Pandas)
-* **Binary Parsing:** Reverse-engineered Serato's proprietary `.crate` file structure to extract raw file paths and nested hierarchy data (`crate_extractor_corrected.py`).
-* **Data Normalization:** Wrote regex parsers to clean "garbage" file naming conventions (e.g., `01_Track_Name_(Original_Mix).mp3`) into standardized Artist/Title tuples (`parse_artist_title.py`).
-* **Fuzzy Matching:** Implemented `thefuzz` and `unicodedata` to reconcile local file names against "Mixed In Key" (MIK) export data, using ISRC codes as the join key (`setlists_merge.py`).
+Large portions of my DJ library metadata were locked inside proprietary formats (Serato `.crate` binaries), with additional fragmentation across third-party tools (Mixed In Key) and inconsistent local file naming. This made five years of curated taxonomy—mood, energy, light/dark, sub-genre, and structural intent—effectively non-queryable.
 
-### 2. The "Soft" Engineering (AI & Semantic Cleanup)
-* **LLM Data Enrichment:** Utilized Notion AI (Lumen) as a "Human-in-the-Loop" cleaning agent to resolve the final 6.2% of edge cases (e.g., ambiguously titled remixes, "feat." artist formatting) that programmatic logic missed.
-* **Taxonomy Injection:** Mapped abstract qualities (Vibe, Texture, Elemental Theme) from the folder structure into the dataset columns.
+The goal of this project was to **recover, normalize, and reconcile creative metadata** into a structured dataset without access to official schemas, while preserving creative intent and avoiding silent data loss.
 
-## 📂 Repository Structure
-* `/src/extractors` - Scripts for parsing `.crate` files and raw binaries.
-* `/src/normalization` - Regex and string cleaning logic for file names.
-* `/src/merging` - Pandas logic for joining MIK data, local files, and taxonomy.
+---
 
-## 🚀 Impact
-* **Recovered Data:** Successfully extracted and structured metadata for 2,700+ assets.
-* **Accuracy:** Achieved 100% data integrity after the HITL (Human-in-the-Loop) pass.
-* **Usage:** This dataset now powers a "Semantic Search" interface for my personal DJ library.
+## Approach
+
+This project implements a hybrid ETL pipeline combining deterministic parsing, probabilistic reconciliation, and human-in-the-loop (HITL) semantic cleanup.
+
+### 1. Extraction and Normalization (Deterministic)
+
+- **Binary parsing:** Reverse-engineered Serato `.crate` file structures to extract file paths and nested hierarchy data.
+- **Regex-based normalization:** Cleaned inconsistent and noisy filename conventions into standardized artist/title fields.
+- **Structured transforms:** Converted raw extractions into normalized Pandas DataFrames for downstream reconciliation.
+
+### 2. Reconciliation (Probabilistic)
+
+- **Fuzzy matching:** Used string similarity and Unicode normalization to reconcile local filenames against Mixed In Key exports.
+- **Primary key recovery:** Leveraged ISRC codes where available to anchor joins and reduce false positives.
+- **Confidence-aware joins:** Preferred partial matches with traceability over strict joins that would drop valid assets.
+
+### 3. Semantic Resolution (Human-in-the-Loop)
+
+- **LLM-assisted cleanup:** Introduced a HITL step for the remaining edge cases (e.g., ambiguous remixes, featured-artist formatting).
+- **Taxonomy injection:** Mapped abstract qualities (vibe, texture, elemental theme) encoded in folder structure into explicit dataset columns.
+- **Explicit review:** Ambiguous cases were surfaced for manual resolution rather than silently auto-corrected.
+
+---
+
+## Why This Design
+
+- **Regex before LLM:** Deterministic logic handles scale cheaply and predictably; model assistance is reserved for genuine semantic ambiguity.
+- **Fuzzy reconciliation over strict joins:** Creative metadata rarely shares a clean primary key across tools; probabilistic matching reflects reality.
+- **Interpretability over automation:** Every reconciliation decision remains inspectable and reversible.
+
+---
+
+## Results
+
+- **Assets recovered:** 2,700+ tracks successfully extracted and structured
+- **Programmatic integrity:** 93.8% resolved via deterministic + fuzzy logic
+- **Final integrity:** 100% after HITL semantic resolution
+- **Outcome:** A fully queryable dataset now powering semantic search and playlist construction workflows
+
+---
+
+## Repository Structure
+
+    /src/extractors     # Serato .crate parsing and raw binary extraction
+    /src/normalization  # Regex and string cleanup logic
+    /src/merging        # Pandas reconciliation and join logic
+
+
+
