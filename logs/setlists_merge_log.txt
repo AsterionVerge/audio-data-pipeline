@@ -1,0 +1,6 @@
+=== SETLISTS MERGE SUMMARY ===
+Essential Mix original: 4443 tracks
+Setlists mapping entries: 101
+Unique ISRCs found in setlists: 9478
+Tracks updated with setlist data: 2552
+Output written to: C:\Users\fulmi\Downloads\Set Lists\essential_mix_with_setlists.csv

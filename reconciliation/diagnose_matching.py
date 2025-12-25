@@ -1,3 +1,6 @@
+# Representative reconciliation stage.
+# Demonstrates fuzzy matching + ambiguity surfacing prior to HITL resolution.
+
 import pandas as pd
 import re
 

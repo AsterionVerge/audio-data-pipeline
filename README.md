@@ -58,9 +58,22 @@ This project implements a hybrid ETL pipeline combining deterministic parsing, p
 
 ## Repository Structure
 
-    /src/extractors     # Serato .crate parsing and raw binary extraction
-    /src/normalization  # Regex and string cleanup logic
-    /src/merging        # Pandas reconciliation and join logic
+extractors/        # Serato .crate parsing and raw data extraction
+normalization/     # Filename cleanup, encoding fixes, text normalization
+reconciliation/    # Probabilistic matching, diagnostics, ambiguity surfacing
+merging/           # Dataset assembly and master record creation
+enrichment/        # Spotify API integration and feature augmentation
+utilities/         # One-off diagnostics and helper scripts
 
+---
 
+## Execution Notes
+
+This repository represents a curated snapshot of a larger local pipeline.
+Scripts were executed in a staged manner with intermediate CSV outputs
+persisted between phases. Environment-specific paths and credentials have
+been intentionally omitted.
+
+The focus of this repository is pipeline structure, reconciliation logic,
+and ambiguity handling — not turnkey deployment.
 

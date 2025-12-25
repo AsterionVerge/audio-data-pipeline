@@ -1,0 +1,40 @@
+Duplicate ISRCs found in MIK:
+DEBE72300576 → 2 rows
+DEEC33500519 → 2 rows
+DEPI82401939 → 2 rows
+DEUE12333255 → 2 rows
+DEY472273629 → 2 rows
+DEY472371227 → 2 rows
+DEY472373769 → 2 rows
+GBEWA1905067 → 2 rows
+GBEWA1907791 → 2 rows
+GBKQU2041939 → 2 rows
+GBKQU2306633 → 2 rows
+GBKQU2308792 → 2 rows
+GBKQU2315801 → 2 rows
+GBTDG1302157 → 2 rows
+GBTZZ2200054 → 2 rows
+ITFGO2300020 → 2 rows
+NLF712208019 → 2 rows
+NLF712300359 → 2 rows
+NLHR22300857 → 2 rows
+QMEFH2310017 → 2 rows
+UKACT2370403 → 2 rows
+UKR6V2380357 → 2 rows
+US43C1628257 → 2 rows
+US83Z2013452 → 2 rows
+US83Z2218375 → 2 rows
+USZ4V2300309 → 2 rows
+
+
+=== MERGE SUMMARY ===
+MIK total tracks: 2779
+Essential Mix total tracks: 2729
+MIK tracks with valid ISRC: 2721
+Essential Mix tracks with valid ISRC: 2727
+Unique ISRCs in MIK: 2695
+Tracks matched (found in both): 1057
+Tracks in MIK but not in Essential: 1638
+Essential Mix rows updated: 1064
+Rows with Energy overwritten from MIK: 1059
+Output written to: C:\Users\fulmi\Downloads\Set Lists\essential_mix_final_with_mik.csv
