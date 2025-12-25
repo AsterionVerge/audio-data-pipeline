@@ -1,3 +1,7 @@
+# RECONCILIATION STAGE (representative)
+# Illustrates confidence-aware fuzzy matching and traceable join decisions
+# used to reconcile inconsistent creative metadata across sources.
+
 import pandas as pd
 import re
 from difflib import SequenceMatcher
@@ -164,4 +168,5 @@ if __name__ == "__main__":
     low_conf.to_csv('crate_tags_unmatched.csv', index=False)
     print(f"✓ Saved {len(low_conf)} unmatched tracks to crate_tags_unmatched.csv for manual review")
     
+
     print("\nDone!")
